@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: 'idroid';
+    src:url('fontes/idroid.otf') format('openType')
+}
+
+:root{
+    --font-padrao: Arial, Verdana, Helvetica, sans-Serif;
+    --font-baixada:'idroid', serif;
+    --font-marcada: monospace;
+
+}
+
+body{
+    background-color: #ebe5c5;
+    font-family: var(--font-padrao);
+    text-align: justify;
+    line-height: 2;
+    font-size: 1.2em;
+    
+}
+h1{
+    font-family: var(--font-baixada);
+    color:#1a5c37;  
+}
+p{
+ text-indent: 20px;
+}
+
+h1.texto{
+    background-image: linear-gradient(to right ,#83e1ad , #FFF);
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+span{
+    color: #1a5c37;
+    font-weight: bolder;
+    font-family: var(--font-padrao);
+}
+
+header{
+    
+   background-image: linear-gradient(to bottom,#2fa866,#063d1e );
+   padding: 37px;
+   text-align: center;
+   color: #fff;
+}
+header h1 {
+    font-family: var(--font-padrao);
+    text-shadow: 2px 2px  black;
+    color: #FFF;
+}
+header p {
+    padding: 10px;
+    text-shadow: 2px 2px black;
+    font-size: 30;
+}
+
+nav{
+    background-color: #063d1e;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #83e1ad;
+    padding: 10px ; 
+    transition: 0.5s;
+}
+nav a:hover{
+    background-color: #2fa866;
+    padding: 10px;
+    border-radius: 5px;
+    color: #063d1e;
+    transition: 0.4s;
+}
+main{
+    background-color: #fff;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    padding:16px;
+}
+main a{
+    text-decoration: none;
+    background-color: #83e1ad;
+    border-radius: 7px;
+    padding: 3px;
+}
+main a ::before{
+    content:' @' ;
+}
+img {
+    width: 100%;
+}
+main img.bug-droid {
+    width: 350px;
+    margin: auto;
+    display: block;   
+}
+main div.video{
+    margin: 0px -16px 10px -16px ;
+    background-color: #063d1e;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video > iframe{
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    width: 90%;
+    left: 5%;
+    height: 90%;
+}
+
+.box{
+    background-color:#83e1ad;
+    border-radius: 10px;
+}
+
+.box p{
+    padding: 10px;
+}
+.box h2{
+    background-color: #063d1e;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.lista {
+    display: flex;
+    margin: auto;  
+    
+}
+.lista ul {
+    display: block;
+    margin: auto;
+    padding: 10px 0px ;
+    list-style: none;
+}
+.lista ul li::before{
+    content: '✓  ' ;
+}
+
+footer{
+    background-color: #063d1e;
+    color: #FFF;
+    text-align: center;
+    padding: 5px;
+}
