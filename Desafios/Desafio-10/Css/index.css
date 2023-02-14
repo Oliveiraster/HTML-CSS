@@ -142,14 +142,40 @@ div.video > iframe{
     margin: auto;
     padding: 10px 0px ;
     list-style: none;
-}
-.lista ul li::before{
-    content: '✓  ' ;
+    letter-spacing: -1px;
+  
 }
 
+.lista ul li::before{
+    content: '✓ ' ;
+}
 footer{
     background-color: #063d1e;
     color: #FFF;
     text-align: center;
     padding: 5px;
 }
+
+@media (max-width: 410px ){
+
+.lista {
+
+    display: inline-block;
+    padding: 30px;
+}
+.lista ul{
+    margin: auto;
+}
+}
+
+@media (max-width: 410px ){
+
+    .lista {
+    
+        display: inline-block;
+        padding: 30px;
+    }
+    .lista ul{
+        margin: auto;
+    }
+    }
