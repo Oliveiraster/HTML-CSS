@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Work+Sans&display=swap');
+@font-face {
+    font-family: 'sriracha';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Work+Sans&display=swap');
+}
+
+:root{
+    --fonte-padrao: Arial, serif;
+    --fonte-marcada:'sriracha';
+}
+body{
+    font-size: 10px;
+}
+header{
+    height: 27em;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+}
+header h1{
+    font-size: 4em;
+    padding-top: 80px;
+    text-align: center;
+}
+header p {
+    
+    padding-top: 1em;
+    text-align: center;
+}
+
+div{
+    font-family: var(--fonte-marcada);
+}
+
+#p1 {
+    background-color: white;
+    height: 60vw;
+    padding-bottom: 4em;
+}
+#p1 p{
+    background-color: red;
+    line-height: 1.5em;
+    font-size: 2em;
+    padding-left: 1em;
+    padding-top: 3em;
+    
+  
+}
+#p2{
+    height: 60vw;
+    background-image: url('../imagens/background001.jpg');
+    background-attachment: fixed;
+    background-position: top center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#p2 p{
+    color:rgb(211, 224, 190);
+    background-color: rgba(0, 0, 0, 0.096);
+}
+#p3{
+    height: 60vw;
+}
+
+#p4{
+    background-image: url('../imagens/background002.jpg');
+    background-attachment: fixed;
+    background-position: top center;
+    height: 60vw;
+}
