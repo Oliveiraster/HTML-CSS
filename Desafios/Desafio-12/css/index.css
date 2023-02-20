@@ -1,22 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
+    
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Work+Sans&display=swap');
-@font-face {
-    font-family: 'sriracha';
-    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Work+Sans&display=swap');
-}
+
 
 :root{
     --fonte-padrao: Arial, serif;
-    --fonte-marcada:'sriracha';
+    --fonte-marcada:'Sriracha', 'Gill Sans MT' cursiva;
 }
+
+
 body{
-    font-size: 10px;
+
+    font-size: 16px;
 }
 header{
-    height: 27em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 20em;
     width: 100%;
     background-color: black;
     color: white;
@@ -24,7 +27,7 @@ header{
 }
 header h1{
     font-size: 4em;
-    padding-top: 80px;
+    padding-top: 1.5em;
     text-align: center;
 }
 header p {
@@ -32,24 +35,16 @@ header p {
     padding-top: 1em;
     text-align: center;
 }
-
-div{
-    font-family: var(--fonte-marcada);
-}
-
+    
 #p1 {
     background-color: white;
     height: 60vw;
-    padding-bottom: 4em;
 }
 #p1 p{
-    background-color: red;
-    line-height: 1.5em;
-    font-size: 2em;
-    padding-left: 1em;
-    padding-top: 3em;
-    
-  
+    font-family: var(--fonte-marcada);
+    font-size:max(35px, 5vw);
+    padding: 7px;
+    padding-left: 30px;
 }
 #p2{
     height: 60vw;
@@ -60,11 +55,20 @@ div{
     background-size: cover;
 }
 #p2 p{
+    font-size:max(35px, 5vw);
+    padding: 7px;
+    padding-left: 30px;
     color:rgb(211, 224, 190);
-    background-color: rgba(0, 0, 0, 0.096);
+    background-color: rgba(0, 0, 0, 0.322);
+    width: max-content;
 }
 #p3{
-    height: 60vw;
+    height: 130vw;
+}
+#p3 p{
+    font-size:max(35px, 5vw);
+    padding: 7px;
+    padding-left: 30px;
 }
 
 #p4{
@@ -72,4 +76,18 @@ div{
     background-attachment: fixed;
     background-position: top center;
     height: 60vw;
+    font-size:max(35px, 5vw);
+}
+#p4 p{
+    background-color: rgba(0, 0, 0, 0.26);
+    color:white;
+    font-size:max(35px, 5vw);
+    padding: 7px;
+    padding-left: 30px;
+    width: max-content;
+}
+#p5 p{
+    font-size:max(35px, 5vw);
+    padding: 7px;
+    padding-left: 30px;
 }
