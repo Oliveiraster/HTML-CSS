@@ -21,12 +21,12 @@ header{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     height: 20em;
     width: 100%;
-    background-color: black;
+   background-color: black;
     color: white;
 
 }
 header h1{
-    font-size: 4em;
+    font-size: min(150px,3em);
     padding-top: 1.5em;
     text-align: center;
 }
@@ -38,35 +38,35 @@ header p {
     
 #p1 {
     background-color: white;
-    height: 60vw;
+    padding:3em;
 }
 #p1 p{
     font-family: var(--fonte-marcada);
-    font-size:max(35px, 5vw);
+    font-size:min(100px ,3.5vw);
     padding: 7px;
     padding-left: 30px;
 }
 #p2{
-    height: 60vw;
+
     background-image: url('../imagens/background001.jpg');
     background-attachment: fixed;
     background-position: top center ;
     background-repeat: no-repeat;
     background-size: cover;
+    padding:3em;
 }
 #p2 p{
-    font-size:max(35px, 5vw);
+    font-size:min(100px ,3.5vw);
     padding: 7px;
-    padding-left: 30px;
     color:rgb(211, 224, 190);
     background-color: rgba(0, 0, 0, 0.322);
     width: max-content;
 }
 #p3{
-    height: 130vw;
+    padding:2em;
 }
 #p3 p{
-    font-size:max(35px, 5vw);
+    font-size:min(100px ,3.5vw);
     padding: 7px;
     padding-left: 30px;
 }
@@ -75,19 +75,21 @@ header p {
     background-image: url('../imagens/background002.jpg');
     background-attachment: fixed;
     background-position: top center;
-    height: 60vw;
-    font-size:max(35px, 5vw);
+    padding:3em;
 }
 #p4 p{
     background-color: rgba(0, 0, 0, 0.26);
     color:white;
-    font-size:max(35px, 5vw);
+    font-size:min(100px ,3.5vw);
     padding: 7px;
     padding-left: 30px;
     width: max-content;
 }
+#p5{
+    padding:3em;
+}
 #p5 p{
-    font-size:max(35px, 5vw);
+    font-size:min(100px ,3.5vw);
     padding: 7px;
     padding-left: 30px;
 }
