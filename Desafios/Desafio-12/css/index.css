@@ -78,6 +78,8 @@ header p {
     background-image: url('../imagens/background002.jpg');
     background-attachment: fixed;
     background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding:3em;
 }
 #p4 p{
