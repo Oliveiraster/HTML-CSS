@@ -70,6 +70,9 @@ header p {
     padding: 7px;
     padding-left: 30px;
 }
+#p3 p.br{
+    padding-top: 1em;
+}
 
 #p4{
     background-image: url('../imagens/background002.jpg');
