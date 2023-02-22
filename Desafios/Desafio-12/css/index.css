@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
 
 *{
     margin: 0px;
-    padding: 0px;
-    
+    padding: 0px;   
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root{
     --fonte-padrao: Arial, serif;
-    --fonte-marcada:'Sriracha', 'Gill Sans MT' cursiva;
+    --fonte-marcada:'Sriracha', cursive;
 }
 
 
@@ -56,6 +55,7 @@ header p {
     padding:3em;
 }
 #p2 p{
+    font-family: var(--fonte-marcada);
     font-size:min(100px ,3.5vw);
     padding: 7px;
     color:rgb(211, 224, 190);
@@ -66,11 +66,13 @@ header p {
     padding:2em;
 }
 #p3 p{
+    font-family: var(--fonte-marcada);
     font-size:min(100px ,3.5vw);
     padding: 7px;
     padding-left: 30px;
 }
 #p3 p.br{
+    
     padding-top: 1em;
 }
 
@@ -83,6 +85,7 @@ header p {
     padding:3em;
 }
 #p4 p{
+    font-family: var(--fonte-marcada);
     background-color: rgba(0, 0, 0, 0.26);
     color:white;
     font-size:min(100px ,3.5vw);
@@ -94,6 +97,7 @@ header p {
     padding:3em;
 }
 #p5 p{
+    font-family: var(--fonte-marcada);
     font-size:min(100px ,3.5vw);
     padding: 7px;
     padding-left: 30px;
