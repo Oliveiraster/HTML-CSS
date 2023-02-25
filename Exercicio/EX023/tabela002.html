@@ -7,13 +7,32 @@
     <title>Tabela Habitação</title>
     <style>
         table{
+            width: 500px;
             border-collapse: collapse;
+            position: relative;
+            
+        }
+        thead{
+            background-color: rgb(59, 59, 59);
+            color: white;
+            position: sticky;
+            top: -1px;
             
         }
         td , th{
-            width: 120px;
-            height: 50px;
-            border: 1px solid black
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: ;
+        }
+        tbody tr{
+            background-color:#6C80F0;
+        }
+        tbody tr:nth-child(3n-1) {
+            background-color:#97F054;
+        
+        }
+        tbody tr:nth-child(3n) {
+            background-color: #F06A3C;
         }
         .numero{
             text-align: center;
@@ -34,10 +53,10 @@
 <body>
    <table>
        <thead>
-        <th class="numero">Posição</th>
-        <th>Unidade Federal</th>
-        <th>População</th>
-        <th>Pais Comparável</th>
+        <th scope="col" class="numero">Posição</th>
+        <th scope="col">Unidade Federal</th>
+        <th scope="col">População</th>
+        <th scope="col">Pais Comparável</th>
        </thead>
        <tbody>
         <tr>
