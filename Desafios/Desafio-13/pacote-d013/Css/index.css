@@ -16,18 +16,18 @@ body{
 }
 main{
     position: relative;
-    width: 380px;
+    width: 310px;
     margin: auto;
 }
 img{
-    padding-top: 150px;
+    padding-top: 15vh;
 }
 iframe{
     width: 270px;
     height: 470px;
     position: absolute;
-    margin-top:14.4rem ;
-    margin-left: -18.4rem;
+    margin-top:-34.5rem ;
+    margin-left: 1.4rem;
 }
 ul{ 
     text-align: right;
@@ -39,7 +39,6 @@ ul{
 }
 .logo{
     margin-top: 4rem;
-    background-color: black;
     padding: 0px;
     width: 50px;
     border-radius: 50px;
