@@ -8,18 +8,18 @@
 </head>
 <body>
     <h1>Formulario</h1>
-    <form action="cadastro.php" method="post">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="iusu">Usuario:</label>
-            <input type="text" name="usu" id="iusu">
+            <input type="text" name="usu" id="iusu" required maxlength="15" placeholder="Digite seu Usuario" autocomplete="username">
         </p>
         <p>
             <label for="isen">Senha:</label>
-            <input type="password" name="sen" id="isen">
+            <input type="password" name="sen" id="isen" required minlength="8" placeholder="Digite sua Senha" autocomplete="current-password">
         </p>
         <p>
             <input type="submit" value="Enviar">
-            <input type="submit" Value="Limpar">
+            <input type="reset" Value="Limpar">
         </p>
     </form>
 </body>
