@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario com Telefone e Email</h1>
+    <form action="cadastro" method="get">
+        <p>
+            <label for="iusu">Nome:</label>
+            <input type="text" name="usu" id="iusu" autocomplete="email" required maxlength="18" >
+        </p>
+        <p>
+            <label for="iemail">Email:</label>
+            <input type="email" name="email" id="iemail" autocomplete="email" required >
+        </p>
+        <p>
+            <!--Revisar e verificar o motivo de nao completar com os caracteres que separam os digitos-->
+            <label for="itel"> Telefone: </label>
+            <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}\-\d{4}$" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+</body>
+</html>
