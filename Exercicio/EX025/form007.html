@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select, datalist e textarea</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p>
+            <label for="iest">Estado: </label>
+            <select name="estado" id="iest">
+
+                    <option value="" selected>--Escolha--</option>
+               <optgroup label="Ragião Norte">
+                   <option value="AM">Amazonas</option>
+                   <option value="RR">Roraima</option>
+                   <option value="PA">Pará</option>
+                   <option value="TO">Tocantins</option>
+                   <option value="RO">Rondônia</option>
+                   <option value="AC">Acre</option>
+               </optgroup>
+
+               <optgroup label="Região Nordeste">  
+                    <option value="MA">Maranhão</option>
+                    <option value="PI">Piauí</option>
+                    <option value="CE">Ceará</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="BH">Bahia</option>
+               </optgroup>
+
+               <optgroup label="Ragião Centro-Oeste">
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="GO">Goiás</option>
+                </optgroup>
+
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+                <optgroup label="Região Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <datalist id="listprof">
+                <option value="Eng. de Software "></option>
+                <option value="Tec. em Eletrônica "></option>
+                <option value="Desenvolvedor "></option>
+                <option value="Motorista "></option>
+                <option value="Porteiro "></option>
+                <option value="Professor "></option>
+            </datalist>
+            <label for="iprof" >Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="listprof">   
+        </p>
+        <p>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="40" rows="10"></textarea>
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
