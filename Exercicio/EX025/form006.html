@@ -8,10 +8,18 @@
 </head>
 <body>
     <h1>Formulario</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <input type="color" name="cor" id="icor">
             <label for="icor">Cor: </label>
+        </p>
+        <p>
+            <label for="inivel">Nivel de Satisfação</label>
+            <input type="range" name="nivel" id="inivel">
+        </p>
+        <p>
+            <label for="ifile">Foto do Perfil</label>
+            <input type="file" name="file" id="ifile">
         </p>
 
         <p>
